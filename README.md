@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://officialjoshuataylor.com" alt="Link to my website!" target="_blank">
-    <img src="https://files.jtlabs.co/web-screenshots/officialjoshuataylor.com-1920x1080.png" width="50%%"/>
+    <img src="https://files.jtlabs.co/web-screenshots/crop?width=1920&height=1080&gravity=north&file=web-screenshots/officialjoshuataylor.com-1920x1080.png" width="50%%"/>
   </a>
 </p>
 
