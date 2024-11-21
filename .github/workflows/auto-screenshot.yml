@@ -1,23 +1,21 @@
 name: Update screenshot of website
 
 on:
-  push:
-    branches:
-    - main
+#   push:
+#     branches:
+#     - main
+  deployment
 
 jobs:
   screenshot:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Wait for Vercel build
-      run: sleep 120s
     - name: POST to screenshot service
       # You may pin to the exact commit or the version.
-      # uses: muinmomin/webhook-action@7c067ef19e5de3aca7aebda32628f1d08d06bf89
-      uses: muinmomin/webhook-action@v1.0.0
+      # uses: cssnr/web-request-action@d820ec5e5cfb441281cd57dce63baf9b843ee686
+      uses: cssnr/web-request-action@v1.0.0
       with:
-        # URL of webhook to send post request to
-        url: "screenshot.jtlabs.co/api/screenshot"
-        # JSON string of data to pass into request
+        # URL for Request
+        url: https://screenshot.jtlabs.co/api/screenshot
         data: '{"url":"https://officialjoshuataylor.com","size":["1920x1080"],"fullPage":true,"darkMode":false,"format":"png","delay":"3","width":1920,"height":1080,"scale":1,"save":true,"pdf":{"format":"resolution","landscape":false},"script":"","style":"","urls":[{"url":null}],"keepUrlStructure":false,"type":"img","mimeType":"image/png","password":null}'
