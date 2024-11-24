@@ -74,11 +74,8 @@ export default function Gallery(
 				}}
 			/>
 
-			<Heading variant="heading-strong-m" marginBottom="xs">
-				<>These are some cool photos.</>
-			</Heading>
-			<Heading variant="body-default-m" marginBottom="m">
-				<>Unfortunately they're not mine. I'll be uploading my own soon.</>
+			<Heading variant="heading-strong-m" marginBottom="m">
+				<>Here are some cool photos and videos of nature that I took</>
 			</Heading>
 			<MasonryGrid />
 		</Flex>
