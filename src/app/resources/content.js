@@ -155,21 +155,28 @@ const about = {
   outdoors: {
     display: true, // set to false to hide this section
     title: "Outdoors & Recreation",
-    subtitle: "Lakes, mountains, valleys, rocks, and trees. (Pictures coming soon!)",
+    subtitle:
+      "Lakes, mountains, valleys, rocks, and trees. (Pictures coming soon!)",
     activities: [
       {
         name: "Hiking",
         description: (
           <>Anywhere there's a trail. Even if it's covered in snow!</>
         ),
+      },
+      {
         name: "Rock Climbing",
         description: (
-          <>My hands have gotten soft, but I always appreciate a good boulder.</>
+          <>
+            My hands have gotten soft lately, but I always appreciate a good boulder.
+          </>
         ),
+      },
+      {
         name: "Running",
-        description: (
-          <>The best way to get fresh air in my lungs.</>
-        ),
+        description: <>The best way to get fresh air in my lungs.</>,
+      },
+      {
         name: "Ultimate Frisbee",
         description: (
           <>I almost joined a team in college. Now I just play pickup!</>
@@ -449,4 +456,14 @@ const gallery = {
   ],
 };
 
-export { person, social, newsletter, home, about, career, blog, portfolio, gallery };
+export {
+  person,
+  social,
+  newsletter,
+  home,
+  about,
+  career,
+  blog,
+  portfolio,
+  gallery,
+};

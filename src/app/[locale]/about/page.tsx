@@ -58,7 +58,7 @@ export default function About(
         { 
             title: about.outdoors.title,
             display: about.outdoors.display,
-            items: about.outdoors.activities.map(institution => institution.name)
+            items: about.outdoors.activities.map(activity => activity.name)
         },
         { 
             title: about.technical.title,
