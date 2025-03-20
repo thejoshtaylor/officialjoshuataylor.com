@@ -142,7 +142,7 @@ const about = {
           <>
             Every day I have a latte in the morning and I'm dialing in the
             flavor. Experimentation with different beans, grind sizes, and milk
-            brands is a daily adventure. I'm becoming move of a coffee snob, but
+            brands is a daily adventure. I'm becoming more of a coffee snob, but
             this drives me to make better lattes. I will continue to refine my
             latte process as well as experiment with different additives to make
             different flavors and maybe even different espresso drinks.
