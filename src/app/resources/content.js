@@ -282,7 +282,8 @@ const career = {
         images: [
           // optional: leave the array empty if you don't want to display images
         ],
-      },{
+      },
+      {
         company: "Diamond Engineering",
         timeframe: "Summer of 2023",
         role: "Software Engineer II | Senior CNC Machinist",
