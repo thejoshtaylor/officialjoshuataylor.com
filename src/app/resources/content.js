@@ -258,6 +258,31 @@ const career = {
     title: "Work Experience",
     experiences: [
       {
+        company: "Glambot",
+        timeframe: "May 2025 - Oct 2025",
+        role: "Software Engineer II",
+        achievements: [
+          <>
+            Redesigned the user interface to be clearer and easier to use, making the
+            system feel faster and more responsive during day-to-day operation.
+          </>,
+          <>
+            Improved system safety and stability by adding clear “modes” of operation,
+            reducing false alarms and preventing the system from behaving unpredictably.
+          </>,
+          <>
+            Built a camera emulator so the system can work with a wider range of
+            cameras, increasing compatibility with the existing system.
+          </>,
+          <>
+            Added over-the-air updates so firmware can be updated smoothly without
+            manual rework, minimizing downtime and improving the upgrade experience.
+          </>,
+        ],
+        images: [
+          // optional: leave the array empty if you don't want to display images
+        ],
+      },{
         company: "Diamond Engineering",
         timeframe: "Summer of 2023",
         role: "Software Engineer II | Senior CNC Machinist",
